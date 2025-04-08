@@ -1,0 +1,33 @@
+{
+  "configurations" : [
+    {
+      "id" : "097150B5-1B3C-4BEF-97F3-2D15FB781834",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:NewsFeedApp.xcodeproj",
+        "identifier" : "ACE41E3A2D5E1FE000615B79",
+        "name" : "NewsFeedAppTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:NewsFeedApp.xcodeproj",
+        "identifier" : "ACE41E442D5E1FE000615B79",
+        "name" : "NewsFeedAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
